@@ -1,0 +1,47 @@
+{
+  "name": "Comment",
+  "fields": [
+    {
+      "fieldName": "text",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timestamp",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "comment",
+      "relationshipName": "user",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "chapter",
+      "otherEntityRelationshipName": "comment",
+      "relationshipName": "chapter",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "topic",
+      "otherEntityRelationshipName": "comment",
+      "relationshipName": "topic",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200806090821",
+  "entityTableName": "comment",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
