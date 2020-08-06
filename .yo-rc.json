@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mferrell.bookclub"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "bookclub",
+    "packageName": "com.mferrell.bookclub",
+    "packageFolder": "com/mferrell/bookclub",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDE3NTIyZmJmZTI2YzAzMmZlYjdlMGUwYzk0YjEyZTlkNDI2ODk2YmEyODA0YmE1MmQ3NDg5ZGUyYjY4OTc0MTI3MjU3ZDZhOTNjN2E4MWYyZmU3YjFjZTBiMmRiM2UzNDJkNTNmODIxOGExZGViNzhkZjc5ZDU0ZDBmOTZiYWM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1596702285972,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
