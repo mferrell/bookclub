@@ -1,0 +1,50 @@
+{
+  "name": "Topic",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "topic",
+      "relationshipName": "user",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "comment",
+      "otherEntityRelationshipName": "topic",
+      "relationshipName": "comment"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "topic",
+      "relationshipName": "book",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "chapter",
+      "otherEntityRelationshipName": "topic",
+      "relationshipName": "chapter",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200806083054",
+  "entityTableName": "topic",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
