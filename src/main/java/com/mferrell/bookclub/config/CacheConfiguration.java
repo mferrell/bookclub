@@ -48,15 +48,6 @@ public class CacheConfiguration {
             createCache(cm, com.mferrell.bookclub.domain.User.class.getName());
             createCache(cm, com.mferrell.bookclub.domain.Authority.class.getName());
             createCache(cm, com.mferrell.bookclub.domain.User.class.getName() + ".authorities");
-            createCache(cm, com.mferrell.bookclub.domain.Book.class.getName());
-            createCache(cm, com.mferrell.bookclub.domain.Book.class.getName() + ".topics");
-            createCache(cm, com.mferrell.bookclub.domain.Book.class.getName() + ".chapters");
-            createCache(cm, com.mferrell.bookclub.domain.Chapter.class.getName());
-            createCache(cm, com.mferrell.bookclub.domain.Chapter.class.getName() + ".comments");
-            createCache(cm, com.mferrell.bookclub.domain.Chapter.class.getName() + ".topics");
-            createCache(cm, com.mferrell.bookclub.domain.Topic.class.getName());
-            createCache(cm, com.mferrell.bookclub.domain.Topic.class.getName() + ".comments");
-            createCache(cm, com.mferrell.bookclub.domain.Comment.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
